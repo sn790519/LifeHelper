@@ -3,7 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     android:background="@color/colorPageBg">
 
     <LinearLayout
@@ -113,7 +112,7 @@
         <View style="@style/ViewLineNav" />
 
         <LinearLayout
-            android:id="@+id/ll_nav_deedback"
+            android:id="@+id/ll_nav_feedback"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:background="@drawable/ripple_one_item_bg"
